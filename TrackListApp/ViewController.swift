@@ -7,21 +7,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
 
-extension ViewController: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+extension ViewController {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         10
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //content for reusableCell
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reusableCell",
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell",
                                                  for: indexPath)
         // old way to use cell
         cell.textLabel?.text = "Cell index: \(indexPath.row)"
