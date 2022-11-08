@@ -16,11 +16,15 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        //content for reusableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reusableCell",
+                                                 for: indexPath)
+        // old way to use cell
+        cell.textLabel?.text = "Cell index: \(indexPath.row)"
+        return cell
     }
 }
-
