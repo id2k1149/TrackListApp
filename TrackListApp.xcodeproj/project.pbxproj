@@ -37,6 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50535C0D291AB80D00AB2744 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				50A7632D291AB70800CA6123 /* AppDelegate.swift */,
+				50A7632F291AB70800CA6123 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		50535C0E291AB82900AB2744 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50A76331291AB70800CA6123 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		50535C0F291AB85D00AB2744 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				50A76333291AB70800CA6123 /* Main.storyboard */,
+				50A76338291AB70A00CA6123 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		50A76321291AB70800CA6123 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +82,10 @@
 		50A7632C291AB70800CA6123 /* TrackListApp */ = {
 			isa = PBXGroup;
 			children = (
-				50A7632D291AB70800CA6123 /* AppDelegate.swift */,
-				50A7632F291AB70800CA6123 /* SceneDelegate.swift */,
-				50A76331291AB70800CA6123 /* ViewController.swift */,
-				50A76333291AB70800CA6123 /* Main.storyboard */,
+				50535C0D291AB80D00AB2744 /* Delegate */,
+				50535C0E291AB82900AB2744 /* ViewControllers */,
+				50535C0F291AB85D00AB2744 /* Storyboards */,
 				50A76336291AB70A00CA6123 /* Assets.xcassets */,
-				50A76338291AB70A00CA6123 /* LaunchScreen.storyboard */,
 				50A7633B291AB70A00CA6123 /* Info.plist */,
 			);
 			path = TrackListApp;
