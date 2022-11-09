@@ -32,7 +32,7 @@ class TrackListViewController: UITableViewController {
         content.secondaryText = track.artist
         
         content.image = UIImage(named: track.title)
-//        content.imageProperties.cornerRadius = tableView.rowHeight / 2
+        content.imageProperties.cornerRadius = tableView.rowHeight / 2
         
         cell.contentConfiguration = content
 
