@@ -14,7 +14,7 @@
 		50A7633A291AB70A00CA6123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A76338291AB70A00CA6123 /* LaunchScreen.storyboard */; };
 		50CED365291AC919002629EC /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CED364291AC919002629EC /* TrackListViewController.swift */; };
 		50EC7D72291B2AD60067648D /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EC7D71291B2AD60067648D /* Track.swift */; };
-		50EC7D74291B3D630067648D /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EC7D73291B3D630067648D /* TrackDetailsViewController.swift */; };
+		50EC7D76291B41910067648D /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EC7D75291B41910067648D /* TrackDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		50A7633B291AB70A00CA6123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50CED364291AC919002629EC /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 		50EC7D71291B2AD60067648D /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
-		50EC7D73291B3D630067648D /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
+		50EC7D75291B41910067648D /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				50CED364291AC919002629EC /* TrackListViewController.swift */,
-				50EC7D73291B3D630067648D /* TrackDetailsViewController.swift */,
+				50EC7D75291B41910067648D /* TrackDetailsViewController.swift */,
 				50EC7D71291B2AD60067648D /* Track.swift */,
 				50A7632D291AB70800CA6123 /* AppDelegate.swift */,
 				50A7632F291AB70800CA6123 /* SceneDelegate.swift */,
@@ -146,9 +146,9 @@
 			files = (
 				50A7632E291AB70800CA6123 /* AppDelegate.swift in Sources */,
 				50A76330291AB70800CA6123 /* SceneDelegate.swift in Sources */,
+				50EC7D76291B41910067648D /* TrackDetailsViewController.swift in Sources */,
 				50CED365291AC919002629EC /* TrackListViewController.swift in Sources */,
 				50EC7D72291B2AD60067648D /* Track.swift in Sources */,
-				50EC7D74291B3D630067648D /* TrackDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
