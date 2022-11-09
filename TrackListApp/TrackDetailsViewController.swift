@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetailsViewController: UIViewController {
+class TrackDetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
