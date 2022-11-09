@@ -40,19 +40,29 @@ class TrackListViewController: UITableViewController {
         return cell
     }
     
-    /*
+    
     // MARK: - UITableViewDelegate
-     // method is too complicated in our case, we can use viewDidLoad with  tableView.rowHeight = 80
+    /* method is too complicated in our case, we can use viewDidLoad with  tableView.rowHeight = 80
+     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         // height in pointa
         80
     }
      */
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        print(indexPath.row)
+        let track = trackList[indexPath.row]
+        performSegue(withIdentifier: "showDetails", sender: track)
+    }
+    
+    
 
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let detailsVC = segue.destination as? TrackDetailsViewController else { return }
-        guard let indexPath = tableView.indexPathForSelectedRow else { return }
-        detailsVC.track = trackList[indexPath.row]
+//        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+//        detailsVC.track = trackList[indexPath.row]
+        detailsVC.track = sender as? Track
     }
 }
