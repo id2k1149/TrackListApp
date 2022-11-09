@@ -73,7 +73,7 @@
             </objects>
             <point key="canvasLocation" x="289" y="-82"/>
         </scene>
-        <!--View Controller-->
+        <!--Track Details-->
         <scene sceneID="HOP-Rn-828">
             <objects>
                 <viewController id="g1a-nd-UI0" sceneMemberID="viewController">
@@ -83,7 +83,7 @@
                         <viewLayoutGuide key="safeArea" id="VFO-gK-pP1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7Xr-LJ-zhF"/>
+                    <navigationItem key="navigationItem" title="Track Details" id="7Xr-LJ-zhF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kNZ-lK-8Qd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
